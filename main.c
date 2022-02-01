@@ -285,8 +285,6 @@ void processLine()
 
 		// Allocate memory for input buffer , e.i. the characters typed into the console.
 		char *buffer = NULL;
-
-		// Allocate memory for input buffer , e.i. the characters typed into the console.
 		buffer = (char *)malloc(buffer_size * sizeof(char));
 
 		if (buffer == NULL) {
